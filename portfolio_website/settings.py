@@ -32,7 +32,9 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBacked'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+   'abel9436.pythonanywhere.com'
+]
 
 
 # Application definition
