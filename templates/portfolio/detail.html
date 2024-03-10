@@ -1,0 +1,8 @@
+{% extends 'base2.html' %}
+{% block page_title %}
+<h2>{{project.project_name}}</h2>
+{% endblock page_title %}
+{% block page_content %}
+<img src="{{project.project_image.url}}" alt="{{project.project_name}}" >
+<p>{{project.project_description | linebreaks}}</p>
+{% endblock page_content %}
